@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Atividade Programação Web</title>
+</head>
+
+<body>
+    <main>
+        <form action="#">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" required>
+            </div>
+
+            <div>
+                <label for="dataNasc">Data de nascimento:</label>
+                <input type="date" name="dataNasc" id="dataNasc" required>
+            </div>
+
+            <div>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="genero" id="masc">
+                <label for="fem">Feminino</label>
+                <input type="radio" name="genero" id="fem">
+                <label for="genNaoEscolhido">Prefiro não falar</label>
+                <input type="radio" name="genero" id="genNaoEscolhido">
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" maxlength="200" required></textarea>
+            </div>
+            <div>
+                <label for="tipoInscricao">Tipo da inscrição:</label>
+                <select name="tipoInscricao" id="tipoInscricao" required>
+                    <option value="palestrante">Palestrante</option>
+                    <option value="participante">Participante</option>
+                    <option value="voluntario">Voluntário</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar tudo">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
